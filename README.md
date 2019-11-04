@@ -1,5 +1,5 @@
 # LR WEB - Preloader
-Модуль добавляет настраиваемый прелоадер.
+Модуль добавляет настраиваемый прелоадер (<a href="https://crystalx.ru/stat">Пример</a>).
 
 [![PHP](https://img.shields.io/badge/PHP-%3E%3D5.4-blue)](https://php.net/)
 [![LR WEB](https://img.shields.io/badge/LR%20WEB-%3E%3D0.2.124-brightgreen)](https://github.com/levelsranks/levels-ranks-web)
@@ -27,9 +27,6 @@
 6. Готово.
 
 Если хотите использовать свою собственную гифку, то:
-
-**Гифка должна весить минимально (к примеру, стандартные весят не больше 1MB)**
-
 1. Переместите вашу гифку с раширением *.gif* по пути **/app/modules/module_block_main_preloader/assets/preloaders**
 2. Перейдите по пути **/app/modules/module_block_main_preloader**
 3. Откройте файл **description.json**
@@ -37,3 +34,7 @@
 5. Сохраните файл
 6. В панели LR WEB, перейдите на вкладку **Настройка Модулей** и нажмите **Обновить кэш модулей**
 7. Готово.
+
+## Внимание!
+
+**Гифка должна весить минимально (к примеру, стандартные весят не больше 1MB)**
