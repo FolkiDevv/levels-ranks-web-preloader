@@ -1,5 +1,6 @@
 # LR WEB - Preloader
 Модуль добавляет настраиваемый прелоадер.
+
 [![PHP](https://img.shields.io/badge/PHP-%3E%3D5.4-blue)](https://php.net/)
 [![LR WEB](https://img.shields.io/badge/LR%20WEB-%3E%3D0.2.124-brightgreen)](https://github.com/levelsranks/levels-ranks-web)
 
