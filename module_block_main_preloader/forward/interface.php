@@ -2,7 +2,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <div id="page-preloader" class="preloader">
         <?php if($Modules->array_modules['module_block_main_preloader']['setting']['type'] == '1'){ ?>
-        <div class="ldBar loader label-center" id="loader" data-preset="circle"></div>
+        <div class="ldBar loader label-center" id="loader" data-preset="circle" data-stroke=var(--span-color)></div>
         <?php } else if($Modules->array_modules['module_block_main_preloader']['setting']['type'] == '2' && file_exists('app/modules/module_block_main_preloader/assets/preloaders/'.$Modules->array_modules['module_block_main_preloader']['setting']['gif-name'].'.gif')) { ?>
         <img src=<? echo 'app/modules/module_block_main_preloader/assets/preloaders/'.$Modules->array_modules['module_block_main_preloader']['setting']['gif-name'].'.gif'; ?> class="loader" id="loader">
         <?php } else get_iframe('404', 'Название гифки прелоадера указано неверно!'); ?>
