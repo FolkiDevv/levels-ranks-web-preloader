@@ -1,0 +1,21 @@
+{
+    "title": "LR WEB - Preloader",
+    "info": "Не даст заскучать при медленном интернете :D",
+    "author": "FolkiDevv",
+    "page": "all",
+    "version": "0.1",
+    "required": {
+      "core": "0.2",
+      "php": "5.4"
+    },
+    "setting": {
+      "status": 1,
+      "type": 2,
+      "available_types": "1;2",
+      "interface": 1,
+      "gif-name": "popy",
+      "css": 1,
+      "cache_enable": 0,
+      "cache_time": 1800
+    }
+  }
