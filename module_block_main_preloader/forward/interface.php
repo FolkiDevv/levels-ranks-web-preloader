@@ -4,19 +4,19 @@
         <div class="ldBar loader label-center" id="loader" data-preset="circle" data-stroke=var(--span-color)></div>
         <?php break;case 2: ?>
         <?php if(file_exists('app/modules/module_block_main_preloader/assets/preloaders/'.$Modules->array_modules['module_block_main_preloader']['custom_setting'][1])) { ?>
-            <img src=<? echo 'app/modules/module_block_main_preloader/assets/preloaders/'.$Modules->array_modules['module_block_main_preloader']['custom_setting'][1]; ?> id="loader" style="max-width:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][2] ?? 100 ?>px;max-height:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][3] ?? 100 ?>px;">
+            <img src=<?php echo 'app/modules/module_block_main_preloader/assets/preloaders/'.$Modules->array_modules['module_block_main_preloader']['custom_setting'][1]; ?> id="loader" style="max-width:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][2] ?? 100 ?>px;max-height:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][3] ?? 100 ?>px;">
         <?php } else { ?>
             <h1 id="loader">Preloader 404 :: Изображение/гифка не найдена.</h1>
         <?php } ?>
         <?php break;case 3: ?>
         <?php if(file_exists('app/modules/module_block_main_preloader/assets/preloaders/'.$Modules->array_modules['module_block_main_preloader']['custom_setting'][1])) { ?>
         <div>
-            <img src=<? echo 'app/modules/module_block_main_preloader/assets/preloaders/'.$Modules->array_modules['module_block_main_preloader']['custom_setting'][1]; ?> id="loader" style="max-width:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][2] ?? 100 ?>px;max-height:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][3] ?? 100 ?>px;margin-left:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][4] ?? 0 ?>px">
+            <img src=<?php echo 'app/modules/module_block_main_preloader/assets/preloaders/'.$Modules->array_modules['module_block_main_preloader']['custom_setting'][1]; ?> id="loader" style="max-width:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][2] ?? 100 ?>px;max-height:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][3] ?? 100 ?>px;margin-left:<?php echo $Modules->array_modules['module_block_main_preloader']['custom_setting'][4] ?? 0 ?>px">
             <div style="text-align: center;"><span id="load_perc">0%</span></div>
         </div>
         <?php } else { ?>
             <h1 id="loader">Preloader 404 :: Изображение/гифка не найдена.</h1>
-            <div style="text-align: center;    opacity: 0;visibility: hidden;"><span id="load_perc">0%</span></div>
+            <div style="text-align: center;opacity: 0;visibility: hidden;"><span id="load_perc">0%</span></div>
         <?php } ?>
         <?php break;endswitch; ?>
     </div>
