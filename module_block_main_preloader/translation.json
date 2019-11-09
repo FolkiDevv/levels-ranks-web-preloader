@@ -1,0 +1,30 @@
+{
+    "1": {
+      "EN": "Image/GIF name (with extension!)",
+      "RU": "Название изображения/гифки (с расширением!)",
+      "UA": "Название изображения/гифки (с расширением!)",
+      "LT": "Image/GIF name (with extension!)",
+      "CH": "Image/GIF name (with extension!)"
+    },
+    "2": {
+      "EN": "Width preloader image",
+      "RU": "Ширина изображения прелоадера (в px)",
+      "UA": "Ширина изображения прелоадера (в px)",
+      "LT": "Width preloader image",
+      "CH": "Width preloader image"
+    },
+    "3": {
+      "EN": "Preloader image height (in px)",
+      "RU": "Высота изображения прелоадера (в px)",
+      "UA": "Высота изображения прелоадера (в px)",
+      "LT": "Preloader image height (in px)",
+      "CH": "Preloader image height (in px)"
+    },
+    "4": {
+      "EN": "Shift image to the left (in px) (only for 3 mode work)",
+      "RU": "Сдвиг изображения влево (в px) (только для 3 режима)",
+      "UA": "Сдвиг изображения влево (в px) (только для 3 режима)",
+      "LT": "Shift image to the left (in px) (only for 3 mode work)",
+      "CH": "Shift image to the left (in px) (only for 3 mode work)"
+    }
+}
