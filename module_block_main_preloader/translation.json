@@ -26,5 +26,12 @@
       "UA": "Сдвиг изображения влево (в px) (только для 3 режима)",
       "LT": "Shift image to the left (in px) (only for 3 mode work)",
       "CH": "Shift image to the left (in px) (only for 3 mode work)"
+    },
+    "_FilesNotExists": {
+      "EN": "The image is not found, check the spelling",
+      "RU": "Изображение не найдено, проверьте правильность написания",
+      "UA": "Зображення не знайдено, перевірте правильність написання",
+      "LT": "Nuotrauka nerasta, įsitikinkite, kad rašyti",
+      "CH": "Bilden hittas inte, kontrollera stavningen"
     }
 }
