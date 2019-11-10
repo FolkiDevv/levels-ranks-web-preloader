@@ -1,4 +1,7 @@
 <head>
+    <style>
+    .ldBar{position:relative;}.ldBar.label-center > .ldBar-label{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);text-shadow:0 0 3px var(--default-text-color);}.ldBar-label:after{content:"%";display:inline}.ldBar.no-percent .ldBar-label:after{content:""}.preloader{position:fixed;left:0;top:0;width:100%;height:100%;background:var(--sidebar-color);transition:1s all;opacity:1;visibility:visible;display:flex;align-items:center;justify-content:center;z-index:9999}.done{opacity:0;visibility:hidden}
+    </style>
     <div id="page-preloader" class="preloader">
         <?php switch($Modules->array_modules['module_block_main_preloader']['setting']['type']): case 1:?>
         <div class="ldBar loader label-center" id="loader" data-preset="circle" data-stroke=var(--span-color)></div>
