@@ -1,3 +1,4 @@
+<?php if($_GET['page'] != 'adminpanel'):?>
 <head>
     <style>
     .ldBar{position:relative;}.ldBar.label-center > .ldBar-label{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);text-shadow:0 0 3px var(--default-text-color);}.ldBar-label:after{content:"%";display:inline}.ldBar.no-percent .ldBar-label:after{content:""}.preloader{position:fixed;left:0;top:0;width:100%;height:100%;background:var(--sidebar-color);transition:1s all;opacity:1;visibility:visible;display:flex;align-items:center;justify-content:center;z-index:9999}.done{opacity:0;visibility:hidden}
@@ -37,4 +38,4 @@ for(var images=document.images,images_total_count=images.length,images_loaded_co
 <script type="text/javascript">
 for(var images=document.images,images_total_count=images.length,images_loaded_count=0,perc_display=document.getElementById("load_perc"),preloader=document.getElementById("page-preloader"),i=0;i<images_total_count;i++)image_clone=new Image,image_clone.onload=image_loaded,image_clone.onerror=image_loaded,image_clone.src=images[i].src;function image_loaded(){images_loaded_count++,perc_display.innerHTML=(100/images_total_count*images_loaded_count<<0)+"%",images_total_count<=images_loaded_count&&setTimeout(function(){preloader.classList.contains("done")||preloader.classList.add("done")},1e3)}
 </script>
-<?php break;endswitch;?>
+<?php break;endswitch;endif?>
