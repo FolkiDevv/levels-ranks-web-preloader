@@ -19,7 +19,7 @@
             <div style="text-align: center;"><span id="load_perc">0%</span></div>
         </div>
         <?php } else {?>
-            <h1 id="loader">Preloader 404 :: <?php echo $Translate->get_translate_module_phrase( 'module_block_main_preloader','_FilesNotExists')?>
+            <h1 id="loader">Preloader 404 :: <?php echo $Translate->get_translate_module_phrase( 'module_block_main_preloader','_FilesNotExists')?>.</h1>
             <div style="text-align: center;opacity: 0;visibility: hidden;"><span id="load_perc">0%</span></div>
         <?php }?>
         <?php break;endswitch;?>
